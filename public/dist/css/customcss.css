@@ -1,0 +1,106 @@
+.layout-boxed {
+  background: url('/dist/img/boxed-bg.jpg') repeat;
+
+
+}
+.box {
+ border-top: 3px solid #605ca8 !important;
+}
+.logo{
+  background-color: #222D32 !important;
+  padding-bottom: 5px !important;
+  height: 60px !important;
+  
+}
+
+.login-box {
+  background-color: white !important;
+  padding-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #605ca8 !important;
+}
+.navbar ,.navbar-static-top {
+  background-color: #605ca8 !important;
+}
+
+.btn-info, .btn-primary  {
+  background-color: #605ca8 !important;
+  border: 1px solid #605da8 !important;;
+}
+
+.btn-info:hover {
+  background-color: #604ea8 !important;
+  border: 1px solid #605da8 !important;;
+}
+
+.sidebar-toggle, .user-header {
+  background-color: #605da8 !important;
+}
+
+.skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a {
+  border-left-color: #605da8 !important;
+}
+.user-panel {
+  padding-top: 17px !important;
+  color: white;
+  text-align: center;
+}
+
+.listyears {
+  list-style: none;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+
+.listmonths, .listyears{
+  padding-left: 0px;
+  overflow: hidden;
+}
+.month, .listdays > li {
+  padding: 10px;
+  border: 1px solid #efefef;
+  width: 100%;
+  background-color: white;
+  border-radius:3px 0 0 3px;
+   border-left: 3px solid #605da8 !important;
+overflow: hidden;
+}
+.month > a {
+  width: 100px;
+  height: 20px;
+  margin: 0 auto;
+
+}
+.listdays > li {
+  width:150px;
+  height:25px;
+  padding-top:3px;
+
+}
+.listdays > li > a {
+  
+  margin: 0px;
+}
+
+.listmonths {
+  list-style: none;
+}
+
+.listdays {
+  list-style: none;
+   display: none;
+}
+
+.days {
+  padding: 0px;
+  margin: 0px;
+}
+
+.month:hover .listdays {
+  display: inherit;
+}
+
+

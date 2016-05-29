@@ -1,0 +1,10 @@
+body {
+	background: black;
+}
+li .year {
+	margin-bottom: 50px !important;
+}
+
+ul .listyears {
+	list-style-type: none;
+}
